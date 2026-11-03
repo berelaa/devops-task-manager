@@ -252,6 +252,12 @@ GitHub Actions-ის გამოყენებით აწყობილი
 
 პროექტმა საშუალება მომცა პრაქტიკულად გამომეყენებინა Git, GitHub, Jest, GitHub Actions და Vercel ტექნოლოგიები.
 
+## Live Demo
+
+- **Task Manager:** https://devops-task-manager-rose.vercel.app
+- **Monitoring Dashboard:** https://devops-task-manager-rose.vercel.app/monitoring.html
+- **GitHub Repository:** https://github.com/berelaa/devops-task-manager
+
 ---
 
 **ავტორი:** გიორგი ბერელიძე  

@@ -108,8 +108,7 @@ jobs:
           echo "Health Check failed. Production release will be cancelled."
           exit 1
 
-
-    promote:
+  promote:
     name: Promote to Production
     runs-on: ubuntu-latest
     needs: [deploy, health_check]

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Monitoring Dashboard</title>
+    <link rel="stylesheet" href="monitoring.css">
+</head>
+<body>
+    <main class="dashboard">
+        <header>
+            <h1>System Monitoring</h1>
+            <p>DevOps Task Manager — Live Status</p>
+        </header>
+
+        <section class="status-card">
+            <div class="status-indicator" id="statusIndicator"></div>
+            <h2 id="statusText">Checking...</h2>
+            <p id="statusDescription">Checking application availability</p>
+        </section>
+
+        <section class="metrics">
+            <article class="metric-card">
+                <h3>HTTP Status</h3>
+                <p id="httpStatus">--</p>
+            </article>
+
+            <article class="metric-card">
+                <h3>Last Checked</h3>
+                <p id="lastChecked">--</p>
+            </article>
+
+            <article class="metric-card">
+                <h3>Response Time</h3>
+                <p id="responseTime">--</p>
+            </article>
+        </section>
+
+        <p class="refresh-info">
+            Automatic refresh every 30 seconds
+        </p>
+
+        <button id="refreshButton">Check Now</button>
+
+        <footer>
+            <a href="/">Back to Task Manager</a>
+        </footer>
+    </main>
+
+    <script src="monitoring.js"></script>
+</body>
+</html>
